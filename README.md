@@ -16,18 +16,18 @@ Aquí puedes encontrar mis proyectos principales. Cada repositorio contiene un `
 * Gestión del ciclo **ETL** de **+3 millones de registros** usando **PostgreSQL**.
 * Transformación de datos (UNPIVOT) y diseño de un **modelo de datos avanzado** en Power BI.
 * Creación de la métrica maestra "**Tasa de Delitos por 100k Habitantes**" y KPIs dinámicos con DAX (`TOPN`).
-* **[Ver el Repositorio]**(https://github.com/J41M3C4B/Incidencia_Delictva_Mexico) | **[Ver Dashboard Interactivo (Power BI Public)]**(https://app.powerbi.com/view?r=eyJrIjoiODEzYjNlMzctNWQ2Zi00N2NhLTgyOWYtNDZlZDhjODIzOGE5IiwidCI6ImIwM2EzOWY4LWVlNDAtNDk3My1hNDUwLTIyOGExYzY3YWI0YSJ9)
+* **Ver el Repositorio**(https://github.com/J41M3C4B/Incidencia_Delictva_Mexico) | **Ver Dashboard Interactivo (Power BI Public)**(https://app.powerbi.com/view?r=eyJrIjoiODEzYjNlMzctNWQ2Zi00N2NhLTgyOWYtNDZlZDhjODIzOGE5IiwidCI6ImIwM2EzOWY4LWVlNDAtNDk3My1hNDUwLTIyOGExYzY3YWI0YSJ9)
 
 ### 2. 📈 Análisis de Ventas E-commerce (Intermedio)
 * Procesamiento y limpieza de un dataset de **+500,000 filas** usando una Vista de **PostgreSQL**.
 * Desarrollo de un **Análisis RFM** (Recencia, Frecuencia, Monetario) en Power BI (`SUMMARIZE`) para segmentar clientes.
 * Identificación de $17.07M en ventas y recomendaciones para optimizar el "inventario zombie".
-* **[Ver el Repositorio]**(https://github.com/J41M3C4B/Ecommerce-Sales-Analysis-SQL-PowerBI) | **[Ver Dashboard Interactivo (Power BI Public)]**(https://app.powerbi.com/view?r=eyJrIjoiMDYwY2NmMTMtMGUzNC00YWNlLWI3YWQtYmMyNDJjNzY4ZmZiIiwidCI6ImIwM2EzOWY4LWVlNDAtNDk3My1hNDUwLTIyOGExYzY3YWI0YSJ9)
+* **Ver el Repositorio**(https://github.com/J41M3C4B/Ecommerce-Sales-Analysis-SQL-PowerBI) | **Ver Dashboard Interactivo (Power BI Public)**(https://app.powerbi.com/view?r=eyJrIjoiMDYwY2NmMTMtMGUzNC00YWNlLWI3YWQtYmMyNDJjNzY4ZmZiIiwidCI6ImIwM2EzOWY4LWVlNDAtNDk3My1hNDUwLTIyOGExYzY3YWI0YSJ9)
 
 ### 3. ☕ Análisis de Ventas de Cafetería (Fundamental)
 * **Ingeniería de características** en **Excel** para crear un `order_id` único.
 * Cálculo de KPIs clave como el Ticket Promedio (AOV) usando **DAX** en **Power Pivot**.
-* **[Ver el Repositorio]**(https://github.com/J41M3C4B/Cafeteria_data_analysis_Excel) | **[Ver Archivo .xlsx]**(https://github.com/J41M3C4B/Cafeteria_data_analysis_Excel/blob/main/Coffee%20Shop%20Dashboard%20(Presentacion).xlsx)
+* **Ver el Repositorio**(https://github.com/J41M3C4B/Cafeteria_data_analysis_Excel) | **Ver Archivo .xlsx**(https://github.com/J41M3C4B/Cafeteria_data_analysis_Excel/blob/main/Coffee%20Shop%20Dashboard%20(Presentacion).xlsx)
 
 ---
 
@@ -53,5 +53,5 @@ Aquí puedes encontrar mis proyectos principales. Cada repositorio contiene un `
 
 ## 📫 ¡Conectemos!
 
-* **[LinkedIn]** www.linkedin.com/in/jaimecaballero20
+* **LinkedIn** www.linkedin.com/in/jaimecaballero20
 * **Correo:** [jaime.caballero.ponce@gmail.com](mailto:jaime.caballero.ponce@gmail.com)
