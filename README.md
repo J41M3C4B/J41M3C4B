@@ -43,6 +43,7 @@ Aquí puedes encontrar mis proyectos principales. Cada repositorio contiene un `
 </p>
 
 ### Conceptos Clave
+* **Excel (Avanzado)**
 * **DAX (Avanzado)** 
 * **Modelado de Datos (Esquema Estrella)** 
 * **Power Query (ETL)** 
