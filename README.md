@@ -43,15 +43,15 @@ Aquí puedes encontrar mis proyectos principales. Cada repositorio contiene un `
 </p>
 
 ### Conceptos Clave
-* [cite_start]**DAX (Avanzado)** [cite: 194]
-* [cite_start]**Modelado de Datos (Esquema Estrella)** [cite: 194, 199]
-* [cite_start]**Power Query (ETL)** [cite: 194]
-* [cite_start]**Análisis RFM** [cite: 198]
-* [cite_start]**Ingeniería de Características** [cite: 201]
+* **DAX (Avanzado)** 
+* **Modelado de Datos (Esquema Estrella)** 
+* **Power Query (ETL)** 
+* **Análisis RFM**
+* **Ingeniería de Características** 
 
 ---
 
 ## 📫 ¡Conectemos!
 
-* **[LinkedIn]**([TU-ENLACE-A-LINKEDIN])
-* [cite_start]**Correo:** [jaime.caballero.ponce@gmail.com](mailto:jaime.caballero.ponce@gmail.com) [cite: 177]
+* **[LinkedIn]** www.linkedin.com/in/jaimecaballero20
+* **Correo:** [jaime.caballero.ponce@gmail.com](mailto:jaime.caballero.ponce@gmail.com)
