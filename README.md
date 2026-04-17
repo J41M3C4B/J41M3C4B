@@ -1,10 +1,32 @@
 # ¡Hola! 👋 Soy Jaime Caballero Ponce
 
-Soy un Estudiante de Ingeniería en Sistemas enfocado en **Business Intelligence** y **Análisis de Datos**.
+Soy un **Estudiante de Ingeniería** y **Arquitecto de Datos** enfocado en la democratización de la información, el desarrollo de ecosistemas SaaS y la Inteligencia de Negocios.
 
-Me apasiona transformar datos crudos en insights accionables. Mi experiencia en proyectos demuestra el ciclo de vida completo del análisis: desde el **ETL** y la **ingeniería de características** en grandes volúmenes de datos (+3 millones de filas) usando **SQL (PostgreSQL)**, hasta el **modelado de datos avanzado** y la creación de métricas complejas con **DAX** (Análisis RFM, Tasas por 100k hab.) en **Power BI**.
+Evolucioné del análisis tradicional a la **Ingeniería de Datos y orquestación de IA**. Me apasiona construir desde la infraestructura y la arquitectura de bases de datos multi-inquilino, hasta el diseño de interfaces minimalistas de alto rendimiento, transformando información cruda en ecosistemas corporativos escalables y decisiones estratégicas.
 
-Busco activamente una posición de **becario** para aplicar mi capacidad analítica y técnica en la resolución de problemas de negocio.
+---
+
+## 🚀 Innovación y Desarrollo Principal
+
+### 🌐 Datset | Ecosistema SaaS de Datos Empresariales (Fundador & Arquitecto)
+## 🏗️ Arquitectura y Flujo E2E
+El sistema procesa archivos (CSV, XLSX, XML) mediante una arquitectura orientada a eventos, aplicando pipelines de limpieza con auditoría forense completa.
+1. **Fase 0 (Ingesta):** FastAPI recibe el payload, verifica cuotas y delega la tarea en background mediante Dramatiq y Redis. Se normaliza el archivo hacia la capa Bronze (Parquet) en Supabase Storage.
+2. **Fase 1 (Limpieza):** Orquestación de motores vectorizados (Polars) para la limpieza de nulos y strings, guardando el resultado en la capa Silver (Parquet) y escribiendo los logs atómicamente en PostgreSQL.
+
+## 🛠️ Stack Tecnológico
+* **Framework API:** FastAPI (Python 3.12)
+* **Procesamiento de Datos:** Polars (DataFrames en columnar)
+* **Background Workers:** Dramatiq + Redis
+* **Base de Datos & ORM:** PostgreSQL (Supabase) + SQLAlchemy 2.0
+* **Storage:** Supabase Storage (S3-compatible)
+
+## 📜 Reglas de Oro para el Desarrollo
+Este repositorio sigue reglas arquitectónicas estrictas. **Antes de hacer un PR, verifica lo siguiente:**
+* ❌ **Cero Pandas:** El procesamiento es 100% vectorizado con Polars para garantizar el máximo rendimiento.
+* ❌ **Inmutabilidad Forense:** El registro de auditoría (`AuditRecord`) tiene `frozen=True`. No se muta bajo ninguna circunstancia.
+* ❌ **Control Atómico de Contratos:** Nunca se sobreescribe el campo `ingestion_logs.metadata` por completo; se debe utilizar `jsonb_set` anidado.
+* ✅ **Manejo Atómico de Base de Datos:** Solo el `ContractWriter` está autorizado para ejecutar el `db.commit()`.
 
 ---
 
@@ -35,24 +57,26 @@ Aquí puedes encontrar mis proyectos principales. Cada repositorio contiene un `
 
 ### Tecnologías Principales
 <p align="left">
-  <img src="https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=sql&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Microsoft_Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
-  <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white" alt="Polars" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
 </p>
 
-### Conceptos Clave
-* **Excel (Avanzado)**
-* **DAX (Avanzado)** 
-* **Modelado de Datos (Esquema Estrella)** 
-* **Power Query (ETL)** 
-* **Análisis RFM**
-* **Ingeniería de Características** 
+### Conceptos y Habilidades Clave
+* **Data Engineering:** Pipelines Deterministas, Arquitectura Lakehouse, Lógica N+1.
+* **Desarrollo SaaS & Backend:** Bases de datos Multi-tenant, Row Level Security (RLS).
+* **AI Engineering:** Orquestación Multi-Modelo (LLMs), Gestión de Contexto Técnico.
+* **Diseño UI/UX:** Retícula 8pt, OKLCH, Glassmorphism, Componentes Minimalistas.
+* **Business Intelligence:** Modelado (Esquema Estrella), DAX Avanzado, Análisis RFM.
+* **Infraestructura:** Virtualización, Configuración de Servidores, Despliegue de ERPs (Odoo).
 
 ---
 
 ## 📫 ¡Conectemos!
 
-* **LinkedIn** www.linkedin.com/in/jaimecaballero20
+* **LinkedIn:** [www.linkedin.com/in/jaimecaballero20](https://www.linkedin.com/in/jaimecaballero20)
 * **Correo:** [jaime.caballero.ponce@gmail.com](mailto:jaime.caballero.ponce@gmail.com)
