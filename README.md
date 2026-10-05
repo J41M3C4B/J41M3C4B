@@ -1,26 +1,28 @@
 # ¡Hola! 👋 Soy Jaime Caballero Ponce
 
-**Ingeniero en Sistemas (carrera concluida, titulación en proceso) · Ingeniería y Análisis de Datos**
+**Ingeniero en Sistemas (carrera concluida, titulación en proceso) · Analista multidisciplinario**
 
-Diseño sistemas que convierten información desordenada en decisiones confiables. Mi formación en Ingeniería en Sistemas y mi especialidad en datos se juntan en un proyecto real: **Cimiento**, que nació de mi servicio social, está en uso por instituciones reales y es la base de mi tesis. Mi regla en todo lo que construyo: **el código calcula y valida; la IA propone.**
+Me fascina entender cómo funciona el mundo y usar los datos para resolver problemas reales: los que todavía no tienen solución, o los que la tienen pero no sirve. Me muevo entre datos, software, DevOps, finanzas, ciencia y psicología, porque casi ningún problema real cabe en una sola disciplina.
 
 ---
 
 ## 🚀 Proyecto principal
 
-### 🧱 [Cimiento](https://github.com/J41M3C4B/Cimiento-Agente-de-Ingenieria-de-Proyectos-) — Pipeline de datos para el tercer sector
-Proyecto de **servicio social** e **inspiración de mi tesis**. App de escritorio *local-first* que convierte convocatorias de donativos (PDF no estructurados) y las ideas sueltas de una institución en un proyecto bien planteado, con presupuesto que cuadra y una guía en Word lista para entregar.
+### 🧱 [Cimiento](https://github.com/J41M3C4B/Cimiento-Agente-de-Ingenieria-de-Proyectos-) — Datos al servicio de quien no tiene quién los atienda
+Nació de mi **servicio social** en instituciones de asistencia privada y es la **inspiración de mi tesis**. Estas instituciones pierden donativos no por falta de necesidad, sino porque las convocatorias llegan en PDF largos y distintos entre sí, y quien las atiende (en buena parte religiosas, sin tiempo ni perfil técnico) no tiene cómo convertirlas en un proyecto bien planteado.
 
-**Es el proyecto donde se juntan mis dos perfiles:**
+**¿Por qué no implementar un ERP o algo que ya existe?** Porque para ellas no es la herramienta correcta: agregaría complejidad y fricción a quien ya tiene demasiado que hacer. Cimiento hace lo contrario: **reduce fricción**. Lee las convocatorias, acompaña a pensar el problema con un diagnóstico guiado y entrega un presupuesto que cuadra y una guía en Word lista para presentar. Es un problema que casi nadie atiende, y menos sin cobrar.
 
-| Ingeniería de sistemas | Ingeniería y análisis de datos |
+**Lo que hay detrás, con las decisiones medidas y documentadas:**
+
+| Entender el problema | Resolverlo con rigor técnico |
 |---|---|
-| Arquitectura por capas (dominio puro, sin depender de Tauri ni SQLite), 24 ADRs que documentan cada decisión | Contrato de datos universal (JSON Schema) para cualquier convocatoria, con citas de página **verificadas por el código**, no por el modelo |
-| 413 pruebas en Rust y 95 en frontend, con un servicio de IA simulado para probar sin costo | Linaje de datos: cada campo registra su origen y su confirmación |
-| Control de gasto: límites por modelo, tope mensual y un solo proceso de IA por proyecto | Decisiones medidas con experimentos pequeños, incluidas las que salieron mal: 96–99 % de citas verificadas en convocatorias nuevas, evaluadas a ciegas |
-| Privacidad por diseño: SQLite cifrado (SQLCipher), escáner de datos sensibles antes y después del modelo, solo agregados hacia la IA | Diagnóstico guiado de "cinco porqués" con peor caso de costo calculable |
+| Un diagnóstico de "cinco porqués" para llegar a la causa de fondo: lo que se pide casi nunca es el problema, es su consecuencia | Contrato de datos universal (JSON Schema) con citas de página **verificadas por el código**, no por el modelo: 96–99 % de citas verificadas en convocatorias nuevas, evaluadas a ciegas |
+| Lenguaje sencillo, un paso a la vez, y errores que nunca inventan una respuesta | Código que calcula y valida; la IA solo propone |
+| Privacidad por diseño: todo local y cifrado, y solo agregados hacia la IA | Control de gasto: límites por modelo, tope mensual y un solo proceso de IA por proyecto |
+| Experimentos pequeños para decidir, incluidos los que salieron mal | 24 ADRs, 413 pruebas en Rust y 95 en frontend |
 
-* **Uso real:** beta usada por dos instituciones de asistencia privada con sus convocatorias del día a día.
+* **Uso real:** beta usada por dos instituciones con sus convocatorias del día a día.
 * **Stack:** Tauri 2 · Rust · React 19 · TypeScript · SQLite/SQLCipher · FTS5 · sqlite-vec
 
 ---
